@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 5000;
 const app = express();
 app.use(
   cors({
-    origin: "https://feedback-frontend-flax.vercel.app/",
+    origin: "https://feedback-frontend-flax.vercel.app",
     methods: ["GET", "POST"],
   })
 );
